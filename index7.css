@@ -364,6 +364,7 @@ section .inner3 {
 
 .news-1 p, .news-2 p, .news-3 p {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .news-1 a, .news-2 a, .news-3 a {
@@ -454,6 +455,8 @@ footer {
 }
 
 .inner-flex-footer {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -497,7 +500,7 @@ footer {
 
 
 
-/* .navbar-fixed-top.scrolled {
-    background-color: blue !important;
-    transition: background-color 200ms linear;
-} */
+.navbar-fixed-top.scrolled {
+    background-color: rgb(23, 19, 31) !important;
+    transition: background-color 700ms linear;
+}
